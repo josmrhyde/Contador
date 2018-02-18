@@ -29,7 +29,6 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 i=i+1;
                 textContador.setText(String.valueOf(i));
-                //num = (String) textContador.toString();
                 Toast.makeText(MainActivity.this,"Se aumentó 1 al contador", Toast.LENGTH_SHORT).show();
             }
         });
